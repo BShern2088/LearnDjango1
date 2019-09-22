@@ -30,6 +30,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Blog\admin.py" />
+    <Compile Include="Blog\apps.py" />
+    <Compile Include="Blog\migrations\__init__.py" />
+    <Compile Include="Blog\models.py" />
+    <Compile Include="Blog\tests.py" />
+    <Compile Include="Blog\views.py" />
+    <Compile Include="Blog\__init__.py" />
     <Compile Include="manage.py" />
     <Compile Include="MySite\__init__.py" />
     <Compile Include="MySite\settings.py" />
@@ -37,9 +44,14 @@
     <Compile Include="MySite\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Blog\templates\Blog\index.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Blog\" />
+    <Folder Include="Blog\migrations\" />
+    <Folder Include="Blog\templates\" />
+    <Folder Include="Blog\templates\Blog\" />
     <Folder Include="MySite\" />
   </ItemGroup>
   <ItemGroup>
